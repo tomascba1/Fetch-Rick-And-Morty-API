@@ -1,0 +1,21 @@
+.characterCards{
+    text-align: center;
+    border: 1px solid black;
+    width: 350px;
+    margin: 15px;
+    padding: 10px;
+}
+.characterCards > img {
+    margin: 10px 0px;
+}
+.container{
+    text-align: center;
+    max-width: 100vw;
+}
+.loadingSpinner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
