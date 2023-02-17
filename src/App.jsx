@@ -37,8 +37,8 @@ function App() {
 
   return (
     <Container>
-      <Filter setEndpoint={setEndpoint}/>
       <h1 className='text-center mb-5'>Rick & Morty API</h1>
+      <Filter setEndpoint={setEndpoint}/>
       <CharacterList characterData={characterData}/>
       <Pages prevPage={prevPage} nextPage={nextPage} pageBefore={pageData.prev} pageAfter={pageData.next}/>
     </Container>

@@ -9,10 +9,8 @@ export const useAxiosFetch = (endpoint) => {
     const getData = async (endpoint) => {
         try {
             const { data } = await API.get(endpoint)
-            setTimeout(() => {
                 setData(data);
-              setIsLoading(false)  
-            }, 1000);
+                setIsLoading(false)  
         } catch (err) {
             setError(err.message)
         }}
